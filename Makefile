@@ -1,7 +1,7 @@
 ENV ?= development
 
 # Common docker-compose method and arguments
-COMPOSE = docker-compose -f docker-compose.yml -f docker-compose.$(ENV).yml -p circles
+COMPOSE = docker-compose -f docker-compose.yml -p circles
 
 # Tasks
 build: ## Build containers
